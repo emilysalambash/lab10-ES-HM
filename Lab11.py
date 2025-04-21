@@ -101,9 +101,9 @@ def display_assignment_graph(assignment_name):
     plt.ylabel("Number of Students")
     plt.show()
 
-students = data_students("data/data/students.txt")
-assignments, assignment_name_to_id = data_assignments("data/data/assignments.txt")
-submissions = data_submissions("data/data/submissions")
+students = data_students("data/students.txt")
+assignments, assignment_name_to_id = data_assignments("data/assignments.txt")
+submissions = data_submissions("data/submissions")
 
 def main():
     print("1. Student grade")
