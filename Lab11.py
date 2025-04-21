@@ -108,7 +108,7 @@ submissions = data_submissions("data/submissions")
 def main():
     print("1. Student grade")
     print("2. Assignment statistics")
-    print("3. Assignment graph \n")
+    print("3. Assignment graph\n")
 
     selection = input("Enter your selection: ")
 
@@ -116,7 +116,7 @@ def main():
     # submissions = read_submissions_file()
 
     if selection == "1":
-        student_name = input("Enter the student's name: ")
+        student_name = input("What is the student's name: ")
         calculate_student_grade(student_name)
 
     elif selection == "2":
